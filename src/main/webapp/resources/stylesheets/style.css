@@ -1,0 +1,66 @@
+body {
+    color: #839496;
+    background: #003541;
+}
+
+p {
+    margin: 20px;
+    font-size: 23px;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+h2, .pit, .container, #move-info{
+    text-align: center;
+}
+
+.pit, #new-game {
+    color: #fdf6e3;
+    height: 70px;
+    font-size: 35px;
+}
+
+.opp-pit{
+    background: #859901;
+}
+
+.own-pit, #new-game  {
+    background: #268bd2;
+}
+
+.user-info {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+#own-info {
+    direction: rtl;
+}
+
+#board {
+    width: 95%;
+    margin: auto;
+}
+
+#board table {
+    border-color: #eee8d5;
+}
+
+#move-info {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#new-game {
+    display: inline-block;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#new-game:hover {
+    background: #859901;
+}
+
